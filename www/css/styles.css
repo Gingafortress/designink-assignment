@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'KGSecondChancesSolid';
+  src: url("../KGSecondChancesSolid.ttf") format("truetype"); }
+h2 {
+  font-family: "KGSecondChancesSolid";
+  font-size: 2em;
+  color: #EC008B;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+  h2 a {
+    color: #EC008B; }
+
+h3 {
+  font-family: "KGSecondChancesSolid";
+  font-size: 1.8em;
+  color: #2B3C3F;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+p {
+  font-size: 1.5em; }
+
+#home-logo-oct {
+  max-width: 400px;
+  margin: 0 auto; }
+
+.small-centered {
+  margin-left: auto;
+  margin-right: auto; }
+
+.pink-social-icons {
+  max-width: 40px; }
+
+#search-link {
+  font-family: "KGSecondChancesSolid";
+  font-size: 2em;
+  color: #EC008B;
+  background-color: #fff;
+  border-style: none; }
+
+.big-img-search {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: inline; }
+  @media all and (min-width: 450px) {
+    .big-img-search {
+      width: 75%;
+      float: left; } }
+  @media all and (min-width: 768px) {
+    .big-img-search {
+      width: 40%; } }
+
+.img-search {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  float: left;
+  display: line; }
+  @media all and (min-width: 450px) {
+    .img-search {
+      width: 25%; } }
+  @media all and (min-width: 768px) {
+    .img-search {
+      width: 20%; } }
+
+.img-column {
+  padding: 10px; }
+  @media all and (min-width: 450px) {
+    .img-column {
+      padding: 0;
+      margin: auto 0; } }
+
+#footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #222;
+  color: #fff; }
+  #footer li {
+    color: #EC008B; }
+    #footer li a {
+      color: #fff; }
+
+#create-account {
+  font-family: "KGSecondChancesSolid";
+  font-size: 2em;
+  color: #EC008B;
+  background-color: #fff; }
