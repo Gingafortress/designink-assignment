@@ -1,24 +1,36 @@
 @font-face {
   font-family: 'KGSecondChancesSolid';
-  src: url("../KGSecondChancesSolid.ttf") format("truetype"); }
+  src: url("../fonts/KGSecondChancesSolid.ttf") format("truetype"); }
+body {
+  background-color: #EFEFEF;
+  font-family: Avenir; }
+
 h2 {
   font-family: "KGSecondChancesSolid";
   font-size: 2em;
   color: #EC008B;
-  padding-top: 1em;
-  padding-bottom: 1em; }
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
   h2 a {
     color: #EC008B; }
+    h2 a:hover {
+      color: #ED295D; }
 
 h3 {
   font-family: "KGSecondChancesSolid";
   font-size: 1.8em;
   color: #2B3C3F;
-  padding-top: 1em;
-  padding-bottom: 1em; }
+  padding-top: 0.5em;
+  padding-bottom: 0.3em; }
 
 p {
-  font-size: 1.5em; }
+  font-size: 1em; }
+
+label {
+  font-family: Avenir;
+  font-weight: bold;
+  color: #2B3C3F;
+  font-size: 1em; }
 
 #home-logo-oct {
   max-width: 400px;
@@ -31,32 +43,15 @@ p {
 .pink-social-icons {
   max-width: 40px; }
 
-#search-link {
-  font-family: "KGSecondChancesSolid";
-  font-size: 2em;
-  color: #EC008B;
-  background-color: #fff;
-  border-style: none; }
-
-.big-img-search {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: inline; }
-  @media all and (min-width: 450px) {
-    .big-img-search {
-      width: 75%;
-      float: left; } }
-  @media all and (min-width: 768px) {
-    .big-img-search {
-      width: 40%; } }
+.img-column {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0; }
 
 .img-search {
-  margin: 0;
-  padding: 0;
-  width: 50%;
-  float: left;
-  display: line; }
+  width: 50%; }
   @media all and (min-width: 450px) {
     .img-search {
       width: 25%; } }
@@ -64,25 +59,87 @@ p {
     .img-search {
       width: 20%; } }
 
-.img-column {
-  padding: 10px; }
+.file-img-search {
+  width: 50%; }
   @media all and (min-width: 450px) {
-    .img-column {
-      padding: 0;
-      margin: auto 0; } }
+    .file-img-search {
+      width: 33%; } }
 
 #footer {
   padding-top: 2em;
   padding-bottom: 2em;
-  background-color: #222;
+  background-color: #2B3C3F;
   color: #fff; }
   #footer li {
     color: #EC008B; }
     #footer li a {
       color: #fff; }
 
-#create-account {
+.dink-button {
+  font-family: "KGSecondChancesSolid";
+  font-size: 2em;
+  color: #fff;
+  background-color: #EC008B;
+  border: none; }
+  .dink-button:hover {
+    background: #ED295D;
+    color: #fff; }
+
+.search-div {
+  padding-top: 1.3em; }
+
+.search-button {
   font-family: "KGSecondChancesSolid";
   font-size: 2em;
   color: #EC008B;
-  background-color: #fff; }
+  background-color: #EFEFEF;
+  border: none;
+  padding: 0; }
+  .search-button:visited {
+    color: #EC008B;
+    background-color: #EFEFEF; }
+  .search-button:hover {
+    color: #ED295D;
+    background-color: #EFEFEF; }
+
+#search-logo {
+  width: 50%; }
+  @media all and (min-width: 450px) {
+    #search-logo {
+      width: 100%; } }
+
+#search {
+  padding-top: 1.2em; }
+
+.file-button {
+  font-family: "KGSecondChancesSolid";
+  font-size: 2em;
+  color: #fff;
+  background-color: #2B3C3F;
+  border: none; }
+  .file-button:hover {
+    background-color: #BDBDBD;
+    color: #fff; }
+
+.user-info {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.tag-class {
+  font-size: 1em; }
+
+.tag-list {
+  display: inline; }
+
+.tags {
+  background-color: #2B3C3F; }
+  .tags:hover {
+    background-color: #BDBDBD;
+    color: #fff; }
+
+.comment {
+  background-color: white;
+  font-size: 1em;
+  padding: 0.5em;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px; }
